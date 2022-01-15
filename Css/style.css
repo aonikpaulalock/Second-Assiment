@@ -63,7 +63,7 @@ section{
   justify-content: center;
 }
 .left-banner h1{
-font-size: 40px;
+font-size:55px;
 color: var(--color);
 }
 .left-banner p{
@@ -106,7 +106,7 @@ margin: 20px 0px;
   cursor: pointer;
 }
 .banners:hover .right-banner{
-  transform:translate(20px);
+  transform:translate(25px);
 }
 
 /*=============== Header Section Ends ==================*/
@@ -212,14 +212,13 @@ padding: 4px 0;
   gap: 20px;
 }
 .demo img{
-  max-width: 390px;
- max-height: 300px;
+  width: 100%;
   border-radius: 5px;
   transition: transform 2s linear;
   cursor: pointer;
 }
 .demo img:hover{
-  transform: scale(.8) translate(50px);
+  transform: scale(.8);
   
 }
 
@@ -266,6 +265,8 @@ padding: 4px 0;
 /*================ Footer Section Ends ================== */
 
 /* ============== Media Quary =================== */
+
+
 @media (max-width:900px) {
   .menu-text h2{
   font-size: 20px;
@@ -279,6 +280,7 @@ padding: 4px 0;
   .demo img{
     width:100%;
     height:auto;
+    
    }
   
 }
@@ -296,7 +298,7 @@ padding: 4px 0;
     margin-top: 30px;
   }
   .menu{
-    position: fixed;
+    position: absolute;
     top: 50px;
     left: 0;
     flex-direction: column;
@@ -327,7 +329,7 @@ padding: 4px 0;
  }
   .demo img{
    width:100%;
-   height:auto;
+   
   }
   
 }
