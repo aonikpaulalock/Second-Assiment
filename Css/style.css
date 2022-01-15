@@ -26,7 +26,7 @@ section{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 40px;
+  padding: 10px 40px;
 }
 .menu-text h2{
   color: var(--color);
@@ -118,8 +118,64 @@ margin: 20px 0px;
  margin: 0 auto;
 }
 
-
 /*=============== Logo Section Ends ==================*/
+
+/*================ Collection Starts ================== */
+.section-title{
+  font-size:30px;
+  text-align: center;
+  margin: 30px 0px;
+  color: var(--color);
+}
+.collection{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 40px;
+  margin: 0 auto;
+}
+.collection-box{
+  width: 100%;
+  background-color:white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgb(233, 231, 231) ,
+             -2px -2px 10px rgb(219, 219, 219);
+}
+.collection-card{
+  padding: 15px 35px;
+}
+.collection-image img{
+  width: 100%;
+}
+.collection-info{
+  padding: 10px 0px;
+}
+.collection-info h2{
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
+}
+.collection-info h3{
+  font-size: 20px;
+  font-weight: 500;
+  color: #3a3a3a;
+  margin: 10px 0;
+}
+.collection-info .rating i{
+  color: goldenrod;
+  
+}
+.collection-info .rating-point{
+  color: var(--color);
+  font-weight: 600;
+  margin-left: 7px;
+}
+
+.collection-info p{
+font-weight: 500;
+color: var(--color);
+padding: 4px 0;
+}
+/*================ Collection Starts ================== */
 
 
 
